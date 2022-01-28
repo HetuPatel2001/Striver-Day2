@@ -10,9 +10,9 @@ int main() {
         cin>>a[i];
     }
 
-    sort(a, a +1);
+    sort(a, a +n);
 
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
         if (a[i] == a[i+1]){
             cout<<a[i];
         }
